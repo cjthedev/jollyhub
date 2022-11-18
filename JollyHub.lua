@@ -27,7 +27,7 @@ local Window = Rayfield:CreateWindow({
 
 local gameid = game.PlaceId
 -- Breaking Point
-if(gameid == 648362523) then
+if(gameid == 648362523, 1436726276) then
     Rayfield:Notify({
         Title = "Game Found!",
         Content = "Breaking Point",
