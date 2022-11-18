@@ -214,7 +214,7 @@ elseif(gameid == 292439477) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Spoorloos/scripts/main/silent_aim_v2.lua"))();
         end,
     })
-elseif(gameid == 6516141723) then
+elseif(gameid == 6839171747) then
     Rayfield:Notify({
         Title = "Game Found!",
         Content = "Doors",
