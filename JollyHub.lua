@@ -122,6 +122,17 @@ elseif(gameid == 292439477) then
     })
     local PFTab = Window:CreateTab("Phantom Forces", 4483362458)
     local Button = PFTab:CreateButton({
+			Name = "ESP",
+			Callback = function()
+			-- // ESP CONFIGURATION \\ --
+_G.sex = true --> true: ESP Enabled | false: ESP Disabled (Use the switch key)
+_G.switchKey = Enum.KeyCode.RightShift --> List: https://create.roblox.com/docs/reference/engine/enums/KeyCode
+
+-- // DONT TOUCH \\ --
+loadstring(game:HttpGet('https://raw.githubusercontent.com/imvipp/roblox/main/shitware/phantomforces/basic_esp.lua'))()	
+				end,
+			})
+    local Button = PFTab:CreateButton({
         Name = "Hitbox",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/The3Bakers4565/Spicy-Bagel/main/Other/Phantom_Forces/Hit_Box_Expander.lua"))()
